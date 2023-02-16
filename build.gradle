@@ -23,6 +23,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-devtools'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.7.8'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
